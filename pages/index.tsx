@@ -1,18 +1,8 @@
+import PageContent from "@components/PageContent";
 import React from "react";
 
-import { Cards, Footer, Header, Main } from "@components";
-
-const Home: React.FC = () => {
-  return (
-    <div
-      style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}
-    >
-      <Header />
-      <Main />
-      <Cards />
-      <Footer />
-    </div>
-  );
+const index = () => {
+  return <PageContent />;
 };
 
-export default Home;
+export default index;
